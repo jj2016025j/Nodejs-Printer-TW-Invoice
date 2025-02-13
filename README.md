@@ -1,4 +1,4 @@
-# Nodejs-Printer-TW-Invoice
+# Nodejs-Printer-Taiwan-Invoice
 
 ## 📜 Node.js 台灣電子發票與訂單列印模組
 
@@ -21,7 +21,7 @@
 目前尚未上架至 npm，可透過 GitHub 直接安裝：
 
 ```sh
-npm install github:jj2016025j/nodejs-printer-tw-invoice
+npm install github:jj2016025j/nodejs-printer-taiwan-invoice
 ```
 
 ### 2️⃣ 列印測試
@@ -29,7 +29,7 @@ npm install github:jj2016025j/nodejs-printer-tw-invoice
 可執行以下範例程式碼來測試列印功能，如遇問題請至 issue 反映：
 
 ```js
-const { TextPrinter } = require("nodejs-printer-tw-invoice");
+const { TextPrinter } = require("nodejs-printer-taiwan-invoice");
 
 const printer = new TextPrinter();
 printer.printSampleText();
@@ -40,7 +40,7 @@ printer.printSampleText();
 如何使用發票列印：
 
 ```js
-const { InvoicePrinter } = require('nodejs-printer-tw-invoice');
+const { InvoicePrinter } = require('nodejs-printer-taiwan-invoice');
 
 const invoiceData = {
   header: '實感生活',
